@@ -78,7 +78,7 @@ target_include_directories(
           "${REACT_NATIVE_DIR}/ReactCommon/callinvoker"
           "${REACT_NATIVE_DIR}/ReactCommon/runtimeexecutor"
           "${REACT_NATIVE_DIR}/ReactCommon/jsiexecutor"
-          "${REACT_NATIVE_DIR}/ReactCommon/react/renderer/graphics/platform/cxx"
+          "${REACT_NATIVE_DIR}/ReactCommon/react/renderer/graphics/platform/android"
 )
 
 set_target_properties(reanimated PROPERTIES LINKER_LANGUAGE CXX)
